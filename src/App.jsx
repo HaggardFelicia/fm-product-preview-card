@@ -1,34 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+    <main>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <img src="/src/assets/image-product-mobile.jpg" alt="perfume bottle" />
+        <div className="container">
+          <h3>Perfume</h3>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+          <h2>$149.99</h2>
+          <p className='price-markdown'>$169.99</p>
+          <button><span><image src="./assets/icon-cart.svg" alt="shopping cart" /></span>Add to Cart</button>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <footer className="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://three-js-portfolio-phi.vercel.app/" target='_blank'>Felicia Nicole Haggard</a>.
+      </footer>
+    </main>
   )
 }
 
