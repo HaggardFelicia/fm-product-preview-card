@@ -148,30 +148,33 @@ a:visited{
     display: flex;
     flex-direction: row;
     max-width: 65%;
-    margin: 6% auto 6% auto;
+    margin: 8% auto 10% auto;
   }
   img{
     width: 50%;
     border-radius: 10px 0 0 10px; 
   }
   h1{
-    font-size: 30px;
-    line-height: 32px;
-    margin-block: 28px;
+    font-size: 28px;
+    line-height: 30px;
+    margin-block: 26px;
   }
   h2{
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 28px;
   }
   h3{
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 4px;
+    margin-top: 10px;
+    line-height: normal;
   }
   p{
-    font-size: 16px;
+    font-size: 14px;
   }
   button{
     height: 50px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1366px) {
@@ -179,7 +182,6 @@ a:visited{
     display: flex;
     flex-direction: row;
     max-width: 65%;
-    margin: 12% auto 12% auto;
     border-radius: 10px;
     background-color: var(--white);
   }
