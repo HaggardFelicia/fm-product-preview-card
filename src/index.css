@@ -116,9 +116,9 @@ a:hover{
 a:visited{
   color: yellowgreen;
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .card{
-    max-width: 80%;
+    max-width: 70%;
     margin: 10% auto 10% auto;
   }
   h1{
@@ -143,11 +143,42 @@ a:visited{
     font-size: 18px;
   }
 }
+@media (min-width: 1024px) {
+  .card{
+    display: flex;
+    flex-direction: row;
+    max-width: 65%;
+    margin: 12% auto 12% auto;
+  }
+  img{
+    width: 50%;
+    border-radius: 10px 0 0 10px; 
+  }
+  h1{
+    font-size: 30px;
+    line-height: 32px;
+    margin-block: 28px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h3{
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+  p{
+    font-size: 16px;
+  }
+  button{
+    height: 50px;
+    font-size: 16px;
+  }
+}
 @media (min-width: 1366px) {
   .card{
     display: flex;
     flex-direction: row;
-    max-width: 60%;
+    max-width: 65%;
     margin: 15% auto 15% auto;
     border-radius: 10px;
     background-color: var(--white);
