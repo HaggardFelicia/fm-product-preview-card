@@ -5,7 +5,7 @@ function App() {
   return (
     <main>
       <div className="card">
-        <img src="/src/assets/image-product-mobile.jpg" alt="perfume bottle" />
+        <img src='../public/assets/image-product-mobile.jpg' alt="perfume bottle" className='image-change'/>
         <div className="container">
           <h3>Perfume</h3>
           <h1>Gabrielle Essence Eau De Parfum</h1>
